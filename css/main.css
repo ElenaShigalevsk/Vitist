@@ -42,8 +42,12 @@ img {
 }
 
 .menu-header {
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-left: 5%;
+}
+
+.menu-header-add {
+	padding-top: 10px;
 }
 
 .menu-header a {
@@ -54,6 +58,7 @@ img {
 .menu-header a:hover, a:active, a:visited, a:link {
 	text-decoration: none;
 	color: #000;
+	float:none;
 }
 
 .menu-header li {
@@ -129,6 +134,10 @@ ul.submenu > li > a:hover {
 
 ul.menu-header > li:hover > ul.submenu {
     display: block;
+}
+
+.submenu a:hover {
+text-decoration: underline;
 }
 
 
