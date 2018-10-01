@@ -136,7 +136,7 @@ ul.menu-header > li:hover > ul.submenu {
     display: block;
 }
 
-.submenu a:hover {
+.submenu > li > a:hover {
 text-decoration: underline;
 }
 
