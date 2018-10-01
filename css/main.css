@@ -228,6 +228,9 @@ ul.menu-header-add-text > li:hover > ul.menu-header-add-text-submenu {
 	content: url{../image/arr-bottom.png};
 }
 
+.submenu-li a:hover {
+ text-decoration: underline;
+}
 
  .banner-text-head {
  	font-size: 90px;
